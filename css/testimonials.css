@@ -2,7 +2,7 @@
     position: relative;
     overflow: hidden;
     /* background-color: var(--primary-pink); */
-    background: linear-gradient(0deg, #FFFFFF 0%, #FFCCBC 100%), url('/assets/images/Cornelia\ Confettis.png');
+    background: linear-gradient(0deg, #FFFFFF 0%, #FFCCBC 100%), url('/assets/images/confettis.png');
     /* background-image: url('/assets/images/Cornelia\ Confettis.png'); */
 
     height: 800px;
