@@ -1,18 +1,77 @@
 .testimonials {
     position: relative;
     overflow: hidden;
-    /* background-color: var(--primary-pink); */
-    background: linear-gradient(0deg, #FFFFFF 0%, #FFCCBC 100%), url('/assets/images/confettis.png');
-    /* background-image: url('/assets/images/Cornelia\ Confettis.png'); */
-
-    height: 800px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), var(--primary-pink)), url('/assets/images/confettis.png');
+    padding-top: 64px;
 }
 .testimonials__container {
-
+    max-width: 88%;
+    margin: 0 auto;
 }
-.testimonials__text__container {
-
+.testimonials__title {  
+    margin: 0 auto;
+    font-family: 'Nunito Sans';
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 72px;
+    text-align: center;
+    color: white;
 }
-.testimonials__title {
+.testimonials__card__container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 88%;
+    margin: 0 auto;
+    padding-top: 64px;
+    gap: 24px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 304px;
+    border-radius: 8px;
+    padding: 20px 0;
+    gap: 16px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.card__text {
+    display: flex;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--primary-green);
+    padding: 0 20px;
+}
+.user {
+    display: flex;
+    width: 264px;
+    height: 48px;
+    gap: 12px;
+    margin: 0 20px;
+}
+.avatar {
+    display: flex;
+    gap: 10px;
+}
+.username {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: var(--primary-green);
+}
 
+.username span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
 }
