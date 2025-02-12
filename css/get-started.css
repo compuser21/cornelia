@@ -1,0 +1,42 @@
+.get__started {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--primary-green);
+    height: 800px;
+}
+
+.get__started__container {
+    max-width: 88%;
+    margin: 0 auto;
+    gap: 48px;
+}
+
+.get__started__title {
+    margin: 0 auto;
+    font-family: 'Motter Corpus Std';
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+    text-align: center;
+    color: var(--primary-pink);
+    max-width: 900px;
+}
+
+.get__started__button__group {
+
+}
+
+.get__started__button {
+    display: grid;
+    width: 291px;
+    padding: 12px 0;
+    border: 2px solid var(--primary-pink);
+    border-radius: 100px;
+    background-color: var(--primary-green);
+    font-family: 'Nunito Sans';
+    color: var(--primary-pink);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    gap: 10px;
+}
