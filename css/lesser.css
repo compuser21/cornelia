@@ -1,7 +1,8 @@
 .lesser {
     position: relative;
     overflow: hidden;
-    padding-top: 296px;
+    height: 701px;
+    margin-top: 188px;
 }
 .lesser__container {
     max-width: 88%;
