@@ -1,6 +1,6 @@
 .header {
-    padding: 20px 0;
-    max-width: 88%;
+    position: fixed;
+    padding: 20px 6%;
     margin: 0 auto;
     top: 0;
     right: 0;
@@ -9,9 +9,6 @@
     backdrop-filter: 18px;
     z-index: 9999;
 }
-/* .header__container {
-
-} */
 .header__nav {
     display: flex;
     align-items: center;
