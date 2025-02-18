@@ -1,0 +1,29 @@
+.footer {
+    padding: 96px 6% 100px 6%;
+    margin: 0 auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--primary-green);
+    backdrop-filter: 18px;
+    z-index: 9999;
+}
+.footer__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 8px;
+}
+.footer__logo {
+    font-family: 'Motter Corpus Std';
+    font-size: 26px;
+    color: var(--primary-pink);
+}
+.footer__text {
+    font-family: 'Nunito Sans';
+    color: var(--primary-pink);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
